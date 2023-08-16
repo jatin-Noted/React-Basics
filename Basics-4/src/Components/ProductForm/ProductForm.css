@@ -1,0 +1,55 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.title, .date{
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title input{
+    padding-top: 10px;
+    border-radius: 5px;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid rgba(61, 61, 223, 0.484);
+    font-size: 18px;
+    color: white;
+}
+
+.date input{
+    padding-top: 10px;
+    border-radius: 5px;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid rgba(61, 61, 223, 0.484);
+    font-size: 18px;
+    color: white;
+}
+
+.bttnForm button{
+    padding: 15px;
+    width: 100px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: rgba(238, 130, 238, 0.504);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hoverEffectBttn:hover{
+    background-color: rgba(238, 130, 238, 0.771);
+    cursor: pointer;
+}

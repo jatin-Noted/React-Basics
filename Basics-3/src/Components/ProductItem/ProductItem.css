@@ -1,0 +1,13 @@
+.product-item_description h2{
+    color: red;
+    font-weight: 900;
+    font-size: 3rem;
+}  
+
+.bttn{
+    padding: 9px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(67, 67, 245, 0.442);
+}

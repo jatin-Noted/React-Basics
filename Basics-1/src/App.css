@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    text-align: center;
+    font-size: 60px;
+    background-color: gray;
+
+    width: 100vw;
+    height: 100vh;
+}
+

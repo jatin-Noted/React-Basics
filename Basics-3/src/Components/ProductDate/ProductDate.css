@@ -1,0 +1,15 @@
+.product-date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 5.5rem;
+    height: 5.5rem;
+    border: 1px solid #ececec;
+    background-color: #2a2a2a;
+    color: white;
+    border-radius: 12px;
+}
+.product-date_month{
+    color: aqua;
+}
